@@ -9,6 +9,9 @@
 .env
 .env.test
 .env.dev
+composer.lock
+symfony.lock
+package-lock.json
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###

@@ -27,8 +27,6 @@ class LoginController extends AbstractController
         // Handle the form
         $form->handleRequest($request);
 
-        
-
         if ($form->isSubmitted()) {
             // check if the user exists
             $user = $userRepository->findOneBy(['email' => $form->get('email')->getData()]);
